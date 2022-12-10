@@ -1,10 +1,10 @@
-{
+ {
   "name": "inbox",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "NODE_OPTIONS=--openssl-legacy-provider mocha"
   },
   "author": "",
   "license": "ISC",
